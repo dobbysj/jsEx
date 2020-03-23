@@ -62,8 +62,6 @@ function check() {
 	}
 	
 	
-	
-	
 
 	//성별 체크 확인
 	var arrRadio = document.getElementsByName("gender");
@@ -101,7 +99,7 @@ function check() {
 		}		
 	}
 	
-	
+	return form.submit();
 	
 	
 }
